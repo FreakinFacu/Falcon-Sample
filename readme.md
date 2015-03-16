@@ -2,6 +2,10 @@
 ##How to run
 clone it
 
+create your virtual environment running: 'virtualenv venv'
+
+and activate it running '. /venv/bin/activate'
+
 pip install -r requirements.txt
 
 gunicorn app:app --restart
