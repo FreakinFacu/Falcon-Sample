@@ -1,7 +1,9 @@
 #Falcon Test
 ##How to run
-clone
+clone it
+
 pip install -r requirements.txt
+
 gunicorn app:app --restart
 
 
